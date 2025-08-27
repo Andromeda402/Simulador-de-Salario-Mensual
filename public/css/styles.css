@@ -1,0 +1,44 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    border: 4px red solid;
+}
+
+.seccion-formulario{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+
+    border: blue solid;
+}
+
+.seccion-formulario h1{
+    font-size: 35px;
+    
+}
+
+.seccion-formulario h2{
+    font-size: 25px;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+    border: green solid;
+}
+
+#calcular {
+    display: flex;
+    width: 22vh;
+    justify-content: center;
+}
+
