@@ -5,6 +5,36 @@ let numero1 = 20;
 let numero2 = 50;
 let mensaje = "Chancho feliz";
 let porcentaje = 20;
+let arregloA = [1, 2, 3];
+let arregloB = ["a", "b", "c"];
+let arregloC = new Array();
+
+let matrizNueva = [
+    [1,2,3], 
+    [4,5,6], 
+    [7,8,9]]; //Arreglo multidimensional
+
+
+console.log(arregloA);
+console.log(arregloA[0]);
+console.log(arregloB);
+console.log(arregloB[2]);
+//cantidad de elementos
+console.log(arregloA.length); 
+
+//Metodos POP / PUSH / SHIFT / UNSHIFT
+
+arregloA.push("44");  //agregar elemento
+console.log(arregloA);
+arregloA.pop();       //quitar elemento
+console.log(arregloA);
+
+console.log(matrizNueva[0] [2]);
+console.log(matrizNueva[2] [1])
+
+
+
+
 
 numero1 = "Otro texto "; //sin let la variable es debilmente equipada
 
@@ -61,3 +91,4 @@ document.getElementById("calcular").onclick = function(){
     document.getElementById("resultadoSuma").style.display = "inline";
     return;
 }
+
