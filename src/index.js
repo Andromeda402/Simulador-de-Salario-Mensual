@@ -30,7 +30,7 @@ arregloA.pop();       //quitar elemento
 console.log(arregloA);
 
 console.log(matrizNueva[0] [2]);
-console.log(matrizNueva[2] [1])
+console.log(matrizNueva[2] [1]);
 
 
 
